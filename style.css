@@ -1,0 +1,32 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    width: 200px;
+}
+
+.cart {
+    margin-top: 30px;
+    border-top: 2px solid black;
+    padding-top: 20px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
